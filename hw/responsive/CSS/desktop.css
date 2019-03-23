@@ -1,0 +1,22 @@
+
+.grid5 {
+  background: #cccccc;
+  margin-top: 100px;
+  width: 960px;
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr 2fr;
+  max-width: 100%;
+}
+.buyproductsmenu{
+  display: grid;
+  grid-template-columns: 5fr 5fr 5fr;
+  margin: 5px;
+}
+.grid{
+  background: black;
+  margin-top: 100px;
+  width: 960px;
+  display: grid;
+  grid-template-columns: 5fr 5fr;
+  max-width: 100%
+}
