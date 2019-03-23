@@ -29,7 +29,7 @@
 }
 .main-nav a:hover {
   background: black;
-  color: var(--#4BFE4B);
+  color: #4BFE4B;
 }
 
 .grid {
@@ -141,7 +141,6 @@ p { margin-top: 0; }
 
 .portfolio img {
   width: 100%;
-  box-shadow: var(--shadow);
 }
 footer {
   margin-top: 2rem;
