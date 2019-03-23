@@ -26,7 +26,6 @@
   color: black;
   text-transform: uppercase;
   font-size: 1.1rem;
-  box-shadow: var(--shadow);
 }
 .main-nav a:hover {
   background: black;
@@ -38,7 +37,6 @@
 }
 
 .grid2 {
-  background:;
   margin-top: 100px;
   display: grid;
   /* grid-template-columns: 2fr 5fr 5fr; */
@@ -99,7 +97,7 @@ h2 span {  border: solid;
 
 .divider{
   border-style: solid;
-  border-color: #black;
+  border-color: #000000;
 }
 #colorbar {
   width: 100%;
@@ -128,8 +126,6 @@ p { margin-top: 0; }
   column-span: all;
 }
 .split {
-  background: var(--primary);
-  box-shadow: var(--shadow);
   display: grid;
   grid-gap: 1px;
   grid-template-columns: repeat(2, 5fr);
