@@ -15,6 +15,7 @@ $(function(){
 
 $('.start').on('click',function(){
   //do stuff when the button is clicked
+
   $('.intro').hide();
   $('footer, #stepinfo').show();
   step = 1;
@@ -75,5 +76,6 @@ if(step >= 1) {
 
 $('.done').on('click',function(){
   $('body').html('<h2>Course Complete!</h2><p>Try Our Other Courses</p>')
+  $('body').css('color','red');
 
 });
