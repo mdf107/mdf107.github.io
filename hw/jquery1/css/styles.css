@@ -1,0 +1,32 @@
+.paragraph{
+  font-family: 'Lato',cursive;
+  text-align: center;
+  color: #3090C7;
+}
+h1{
+  font-family: 'Lato',cursive;
+  text-align: center;
+  color: #black;
+}
+.featuredimage{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+body{
+  background: #FFF5EE;
+}
+.button2 {
+  background-color: #008CBA;
+}
+.button1 {
+  background-color: #4CAF50;
+}
+.button3 {
+  background-color: #f44336;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

@@ -72,3 +72,8 @@ if(step >= 1) {
   }
 
 });
+
+$('.done').on('click',function(){
+  $('body').html('<h2>Course Complete!</h2><p>Try Our Other Courses</p>')
+
+});
