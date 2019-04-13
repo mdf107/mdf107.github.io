@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Simple jQuery slider - Simple but powerful slideshow</title>
+		<meta name="description" content="A simple but really powerful slider that does what a slider has to do: slide slides.">
+		<!-- Include demo stylesheet -->
+		<link href="styles.css" rel="stylesheet" type="text/css">
+
+		<link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+
+		<!-- Get jQuery from CDN -->
+		<script src="https://code.jquery.com/jquery-1.10.1.min.js"></script>
+		<script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+		<!-- Include the slider scripts -->
+		<script type="text/javascript" src="slider/src/jquery.simpleslider.js"></script>
+		<script type="text/javascript" src="slider/demo/src/backstretch.js"></script>
+		<script type="text/javascript" src="slider/demo/src/custom.js"></script>
+
+	</head>
+	<body>
+		<div id="fb-root"></div>
+		<script>(function(d, s, id) {
+		  var js, fjs = d.getElementsByTagName(s)[0];
+		  if (d.getElementById(id)) return;
+		  js = d.createElement(s); js.id = id;
+		  js.src = "https://connect.facebook.net/nl_NL/all.js#xfbml=1&appId=462401843842149";
+		  fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
+
+		<header id="top">
+			<div id="logo"><span class='logo'></span><span class='dynamic'></span></div>
+		</header>
+
+
+		<div class='pagewrap'>
+			<div class="fb-like" data-href="https://github.com/dirkgroenen/simple-jQuery-slider" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div>
+
+
+
+			<div class='pageblock' id='fullscreen'>
+				<div class='slider'>
+					<div class='slide' id="first">
+						<div class='slidecontent'>
+							<span class="headersur">TRAVEL</span>
+							<h1>CUBA</h1>
+							<div class="button" onclick="mainslider.nextSlide();"> Continue to Adventure</div>
+						</div>
+					</div>
+					<div class='slide' id="sec">
+						<div class='slidecontent'>
+							<span class="headersur"></span>
+							<h1>HAVANA</h1>
+							<div class="text">
+								<p> Havana is Cuba’s capital city. Spanish colonial architecture in its 16th-century Old Havana core includes the Castillo de la Real Fuerza, a fort and maritime museum. The National Capitol Building is an iconic 1920s landmark. Also in Old Havana is the baroque Catedral de San Cristóbal and Plaza Vieja, whose buildings reflect the city’s vibrant architectural mix.</p>
+
+
+
+								<div class="button" onclick="mainslider.nextSlide();">NEXT</div>
+							</div>
+						</div>
+					</div>
+
+
+					<div class='slide' id="thirth">
+						<div class='slidecontent'>
+							<span class="headersur"></span>
+							<h1>VINALES</h1>
+							<div class="text">
+								<p> Viñales is a town in western Cuba. Its main street is lined with colorful colonial-era wooden houses, including the Municipal Museum, which explores the region’s history. Orchids and palms fill the sprawling Casa de Caridad Botanical Gardens. Viñales serves as a gateway to the Sierra de los Organos mountains and the Viñales Valley. The valley's tall, steep-sided limestone hills, known as mogotes, draw rock climbers.</p>
+
+
+
+								<div class="button" onclick="mainslider.nextSlide();">NEXT</div>
+							</div>
+						</div>
+					</div>
+
+					<div class='slide' id="fourth">
+						<div class='slidecontent'>
+							<span class="headersur"></span>
+							<h1>HORSES, CIGARS, COFFEE</h1>
+							<div class="text">
+								<p> With a tour of 5 or 6 hours you can stop on the most spectacular viewpoints of the valley, visit caves inside born underground rivers that allow travelers to alleviate the Cuban heat during this time to visit Las Vegas and drying of snuff, if your enjoyment can enjoy a Cuban cigar from the hands of its growers and to be able to participate in the work of the farmers. The fauna will place you in a perfect setting with the singing of the birds that live in the heart of the valley. With us you will understand the charm of the harmonious coexistence of man and nature.
+
+ </p>
+
+
+
+								<div class="button" onclick="mainslider.nextSlide();">NEXT</div>
+
+							</div>
+						</div>
+					</div>
+
+					<div class='slide' id="fifth">
+						<div class='slidecontent'>
+							<span class="headersur"></span>
+							<h1>TRINIDAD</h1>
+							<div class="text">
+								<p> Trinidad is a town in central Cuba, known for its colonial old town and cobblestone streets. Its neo-baroque main square, Plaza Mayor, is surrounded by grand colonial buildings. Museo Romántico, in the restored Palacio Brunet mansion, and Museo de Arquitectura Colonial display relics from the town’s sugar-producing era. Iglesia de la Santísima is a 19th-century cathedral with a vaulted ceiling and carved altars.
+
+
+					</p>
+
+
+
+								<div class="button" onclick="mainslider.nextSlide();">NEXT</div>
+
+
+
+				</div>
+			</div>
+
+		</div>
+
+
+	</body>
+</html>
